@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>Milena Perotti | Galería</title>
+
+        <link href="lightgallery/css/lightgallery.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/gallery.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    </head>
+    <body>
+  		<header>	
+  		  <div class="navbar">
+  			<div class="logo">
+	  		  <h3><a href="index.html">Milena Perotti</a></h3>
+  			</div>
+  			<div class="nav">
+  			  <h4><a href="#">Galería</a></h4>
+  			</div>
+  		  </div>
+  		</header>
+    	<div class="gallery">
+    		<ul id="gallery1" class="list-unstyled row">
+    			<li data-src="images/25x25cm.jpg" data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>" >
+    				<a href="">
+    					<img class="img-responsive" src="images/25x25cm.jpg" alt="Thumb-25x25">
+    				</a>
+    				<div class="thumb-info">
+    					<h3>Descripcion</h3>
+    					<p><span>25 x 25 cm</span></p>
+    				</div>
+    			</li>
+    		</ul>
+    		
+    	</div>
+
+        <div class="gallery">
+            <ul id="gallery2" class="list-unstyled row">
+                <li data-src="images/001-30x30cm.jpg">
+                    <a href="">
+                        <img class="img-responsive" src="images/001-30x30cm.jpg" alt="Thumb-001-30x30">
+                    </a>
+                </li>
+                <li data-src="images/002-30x30cm.jpg">
+                    <a href="">
+                        <img class="img-responsive" src="images/002-30x30cm.jpg" alt="Thumb-002-30x30">
+                    </a>
+                </li>
+                <li data-src="images/003-30x30cm.jpg">
+                    <a href="">
+                        <img class="img-responsive" src="images/003-30x30cm.jpg" alt="Thumb-003-30x30">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="gallery">
+        	<ul id="gallery3" class="list-unstyled row">
+        		<li data-src="images/000-30x30.jpg">
+        			<a href="">
+        				<img class="img-responsive" src="images/000-30x30.jpg" alt="Thumb-000-30x30">
+        			</a>
+        		</li>
+        	</ul>
+        </div>
+
+        <div class="gallery">
+        	<ul id="gallery4" class="list-unstyled row">
+        		<li data-src="images/30x20cm-001.jpg">
+        			<a href="">
+        				<img class="img-responsive" src="images/30x20cm-001.jpg" alt="Thumb-30x20-001">
+        			</a>
+        		</li>
+        		<li data-src="images/30x20cm-002.jpg">
+        			<a href="">
+        				<img class="img-responsive" src="images/30x20cm-002.jpg" alt="Thumb-30x20-002">
+        			</a>
+        		</li>
+        	</ul>
+        </div>
+
+        <div class="gallery">
+        	<ul id="gallery5" class="list-unstyled row">
+        		<li data-src="images/100x100cm.jpeg">
+        			<a href="">
+        				<img class="img-responsive" src="images/100x100cm.jpeg" alt="Thumb-100x100">
+        			</a>
+        		</li>
+        	</ul>
+        </div>
+
+        <div class="gallery">
+        	<ul id="gallery6" class="list-unstyled row">
+        		<li data-src="images/70x60cm.jpg">
+        			<a href="">
+        				<img class="img-responsive" src="images/70x60cm.jpg" alt="Thumb-70x60">
+        			</a>
+        		</li>
+        	</ul>
+        </div>
+
+        <footer>
+        	<div>
+        	  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec ex convallis, mattis purus ac, ultrices turpis.</p>
+        	</div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+        <script src="lightgallery/js/lightgallery.min.js"></script>
+        <script src="lightgallery/js/lg-pager.js"></script>
+        <script src="lightgallery/js/lg-autoplay.js"></script>
+        <script src="lightgallery/js/lg-fullscreen.js"></script>
+        <script src="lightgallery/js/lg-zoom.js"></script>
+        <script src="lightgallery/js/lg-hash.js"></script> 
+        <script src="lightgallery/js/lg-rotate.js"></script>
+        <!-- <script src="lightgallery/js/lg-thumbnail.js"></script> -->
+
+        <script>
+        	lightGallery(document.getElementById('gallery1'),{
+        		mode: 'lg-fade',
+        		download: false,
+        	});
+            lightGallery(document.getElementById('gallery2'),{
+            	mode: 'lg-fade',
+            	download: false
+            });
+            lightGallery(document.getElementById('gallery3'),{
+            	mode: 'lg-fade',
+        		download: false,
+            });
+            lightGallery(document.getElementById('gallery4'),{
+            	mode: 'lg-fade',
+        		download: false,
+            });
+            lightGallery(document.getElementById('gallery5'),{
+            	mode: 'lg-fade',
+        		download: false,
+            });
+            lightGallery(document.getElementById('gallery6'),{
+            	mode: 'lg-fade',
+        		download: false,
+            });
+        </script>
+    </body>
+</html>
