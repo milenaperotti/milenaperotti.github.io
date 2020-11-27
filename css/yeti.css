@@ -29,3 +29,11 @@ body, html {
     span {text-decoration: line-through;}
   }
 }
+a{
+  text-decoration: none;
+  cursor: pointer;
+  color: #FFF;
+}
+a:hover{
+  color: #000;
+}
