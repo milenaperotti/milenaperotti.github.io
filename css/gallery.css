@@ -11,7 +11,7 @@
     margin-right: 20px;
     width: 300px;
     list-style: none;
-    background-color: #ffdd93;
+    background-color: #f0a500;
     border-radius: 0px 0px 25px 25px;
 }
 .gallery > ul > li a {
@@ -122,8 +122,7 @@
 
 
 /* Descripción */
-.description p, .description h3{
-    font-weight: 200;
+.description p{
     color: #000;
     margin: 0;
 }
