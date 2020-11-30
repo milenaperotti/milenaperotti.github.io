@@ -2,7 +2,7 @@
 
 :root{
 	/* Colores */
-	--colorPrimario: #cf7500;
+	--colorPrimario: #8f384d;
 	--colorSecundario: #f0a500;
 	--baseClaro: #f4f4f4;
 	--negroMate: #1a1c20;
@@ -92,26 +92,28 @@ header{
 .navbar .logo {
   display: none;
   position: absolute;
-  padding-left: 10%;
-  padding-top: 4px;
-  left: 0;
-  top: 5px;
+  left: 20px;
+  top: 10px;
 }
 @media (min-width: 600px) {
   .navbar .logo{
     display: flex;
     justify-content: flex-start;
   }
+  .logo img{
+    height: 40vh;
+    padding: 3px;
+  }
 }
 .navbar .logo-min{
   display: flex;
   justify-content: flex-start;
   position: absolute;
-  padding-left: 0;
-  padding-top: 4px;
-  left: 0;
-  top: 5px;
-  height: 50px;
+  left: 20px;
+  top: 15px;
+}
+.logo-min img{
+  height: 8vh;
   width: auto;
 }
 @media (min-width: 600px) {
@@ -214,5 +216,5 @@ header{
 footer{
   height: 300px;
   width: 100%;
-  background-color: var(--negroMate);
+  background-color: #5c6e91;
 }
