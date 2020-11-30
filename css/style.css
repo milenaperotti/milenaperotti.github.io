@@ -82,9 +82,13 @@ header{
   position: relative;
   top: 0;
   right: 0;
-  padding-right: 20px;
+  margin-right: 20px;
 }
+.active{
+  color: var(--colorPrimario);
+  border-bottom: 3px solid var(--colorPrimario);
 
+}
 .navbar .logo {
   display: none;
   position: absolute;

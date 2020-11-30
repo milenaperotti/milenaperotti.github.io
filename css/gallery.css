@@ -7,12 +7,12 @@
 }
 .gallery > ul > li {
     float: left;
-    margin-bottom: 15px;
-    margin-right: 20px;
+    margin: 15px;
     width: 300px;
     list-style: none;
-    background-color: #f0a500;
+    background-color: #f4f4f4;
     border-radius: 0px 0px 25px 25px;
+    box-shadow: 2px 2px 5px #999;
 }
 .gallery > ul > li a {
     border: none;
@@ -123,8 +123,9 @@
 
 /* Descripción */
 .description p{
-    color: #000;
+    color: #1a1c20;
     margin: 0;
+    text-align: center;
 }
 .description h3{
     font-size: 20px;
