@@ -25,3 +25,4 @@ owl.owlCarousel({
     autoplayHoverPause:false,
     dots: false
 });
+
