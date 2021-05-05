@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="lightgallery/css/lightgallery.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/gallery.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="icon" href="icons/MP.png" type="image/icon type">
+    <title>Milena Perotti | Detalles</title>
+</head>
+<body>
+    <header>	
+        <div class="navbar">
+          <div class="logo">
+            <img src="icons/MilePerotti.png">
+          </div>
+        <div class="logo-min">
+            <img src="icons/MP.png">
+        </div>
+          <div class="nav">
+            <h4 class="active"><a href="gallery.html">Volver a Galería</a></h4>
+          </div>
+        </div>
+      </header>
+      <div class="contenedor">
+        <div class="full-image">
+    		<ul id="detalle1" class="list-unstyled row">
+    			<li data-src="images/001-30x30cm.jpg">
+    				<a href="">
+    					<img class="img-responsive" src="images/001-30x30cm.jpg" alt="Thumb-25x25">
+    				</a>
+                    <div class="description">
+                        <h4>Fotografía completa de la obra</h4>
+                        <p>Medidas: 30x30cm</p>
+                    </div>
+    			</li>
+    		</ul>
+    	</div>
+        <div class="full-image">
+    		<ul id="detalle2" class="list-row">
+    			<li data-src="images/001-30x30-detalles6.jpg">
+    				<a href="">
+    					<img class="img-responsive" src="images/001-30x30-detalles6.jpg" alt="Thumb-25x25">
+    				</a>
+                    <div class="description">
+                        <h4>Detalle</h4>
+                        <p>Acercamiento de la obra</p>
+                    </div>
+    			</li>
+                <li data-src="images/001-30x30-detalles7.jpg">
+    				<a href="">
+    					<img class="img-responsive" src="images/001-30x30-detalles7.jpg" alt="Thumb-25x25">
+    				</a>
+                    <div class="description">
+                        <h4>Detalle</h4>
+                        <p>Acercamiento de la obra</p>
+                    </div>
+    			</li>
+          <li data-src="images/001-30x30-detalles5.jpg">
+            <a href="">
+              <img class="img-responsive" src="images/001-30x30-detalles5.jpg" alt="Thumb-25x25">
+            </a>
+            <div class="description">
+              <h4>Detalle</h4>
+              <p>Acercamiento de la obra</p>
+            </div>
+          </li>
+            </ul>
+    	</div>
+      </div>
+
+
+    <footer>
+        <div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec ex convallis, mattis purus ac, ultrices turpis.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+    <script src="lightgallery/js/lightgallery.min.js"></script>
+    <script src="lightgallery/js/lg-pager.js"></script>
+    <script src="lightgallery/js/lg-autoplay.js"></script>
+    <script src="lightgallery/js/lg-fullscreen.js"></script>
+    <script src="lightgallery/js/lg-zoom.js"></script>
+    <script src="lightgallery/js/lg-hash.js"></script> 
+    <script src="lightgallery/js/lg-rotate.js"></script>
+
+    <script>
+        lightGallery(document.getElementById('detalle1'),{
+            mode: 'lg-fade',
+            download: false,
+        });
+        lightGallery(document.getElementById('detalle2'),{
+            mode: 'lg-fade',
+            download: false,
+        });
+
+    </script>
+</body>
+</html>
